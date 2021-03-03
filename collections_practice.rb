@@ -21,5 +21,9 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker
+def kesha_maker(array)
+  array.collect do |element| #collect each element in array and return it with 3rd char of each element to dolla sign
+    element[2] = "$"
+    element
+  end
 end
