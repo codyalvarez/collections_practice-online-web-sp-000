@@ -6,6 +6,6 @@ end
 
 def sort_array_desc(x)
   x.sort do |b, a|
-    b <=> all 
+    b <=> a
   end
 end
