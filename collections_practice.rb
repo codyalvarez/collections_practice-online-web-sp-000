@@ -8,6 +8,6 @@ def sort_array_desc(x)
   x.sort.reverse!
 end
 
-def sort_array_char_count(x)
-  x = x.sort_by { |x| x.length }
+def sort_array_char_count(array)
+  new_array = array.sort_by { |x| x.length }
 end
