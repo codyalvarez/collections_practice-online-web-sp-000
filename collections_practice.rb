@@ -5,6 +5,6 @@ def sort_array_asc(x)
 end
 
 def sort_array_desc(x)
-  x.sort_by{...}.reverse!
+  x.sort.reverse!
 
 end
