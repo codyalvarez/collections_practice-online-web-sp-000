@@ -3,3 +3,9 @@ def sort_array_asc(x)
     a <=> b
   end
 end
+
+def sort_array_desc(x)
+  x.sort do |b, a|
+    b <=> all 
+  end
+end
